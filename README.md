@@ -8,10 +8,10 @@ Note that, we ***do not*** implicitly tell the AI what to do and how to play the
 ## How?
 The game can be run directly on terminal, or on any IDE. A playthrough of the program can be find [here](https://www.youtube.com/watch?v=xtqAbc157JQ)
 
-First, the user choose how many rounds the agent will be trained. Note that, this is where the agent will explore different actions, and learn more about the environment. 
+First, the user choose how many rounds the agent will be trained. Note that, this is when the agent will explore different actions, and learn more about the environment. 
 
 ![](Screenshot%20Train.png)
-Then, the user choose how many rounds the agent will be tested on. Note that, the agent will no longer explore the environment, but act to perform the best sequence actions, based on the knowledge it learn from the training rounds. 
+Then, the user choose how many rounds the agent will be tested on. Note that, the agent will no longer explore the environment, but rather act to the best of its knowledge. In Reinforcement Learning, this action is termed "act greedily". 
 ![](Screenshot%20Test.png)
 ## Performance
 
