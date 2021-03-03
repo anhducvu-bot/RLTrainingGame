@@ -5,7 +5,7 @@ There's an old saying: "the harder you work, the better you get." This is true n
 
 Note that, we ***do not*** implicitly tell the AI what to do in any given situation, or how to play the game. Rather, we let it explore and try out different actions. We ***reward*** it when it does something correctly (giving it a +20 points, which is the equivalent of a thumbs-up!), and ***punish*** it when it does something bad (giving it a -10 points, which is the equivalent of slapping the AI in the face!)
 
-![](trainingai.png)
+![](trainingaiRL.png)
 
 As you will see, rewards and punishment alone are ***enough*** for the agent to learn how to play the game. That's the magic of ***Reinforcement Learning!*** 
 
