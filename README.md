@@ -1,15 +1,16 @@
 # A Reinforcement Learning Training Game
 
 ## What?
-There's an old saying: "the harder you work, the better you get." This is true, not only for humans but also for AI! In this game, the user can choose how many rounds the AI has to train. Then, to access his performance, the user has the option to choose how many rounds the AI will be tested on. Similar to human, the more rounds the AI trains, the better it gets! 
+There's an old saying: "the harder you work, the better you get." This is true, not only for humans but also for AI! In this game, the user can choose how many rounds the AI has to train. Then, to access his performance, the user has the option to choose how many rounds the AI will be tested on. Similar to human, the more rounds the AI trains, the better it gets! In this game, the player will teach the AI to be a taxi driver! In the environment, there are 4 locations, and the AI has to pick up the passenger at one location and drop them off at another. 
 
-In the environment, there are 4 locations, and the AI has to pick up the passenger at one location and drop them off at another. Note that, we don't implicitly tell the AI what to do and how to play the game. Rather, we let it explore and try out different actions in each round. We reward it when it does something correctly, and punish it when it does something bad (just like how you train a dog to pee in the right place!) As you will see, rewards and punishment alone are enough for the agent to learn how to play the game. That's the magic of Reinforcement Learning! 
+Note that, we ***do not*** implicitly tell the AI what to do and how to play the game. Rather, we let it explore and try out different actions in each round. We ***reward*** it when it does something correctly, and ***punish*** it when it does something bad (just like how you train a dog to pee in the right place!) As you will see, rewards and punishment alone are ***enough*** for the agent to learn how to play the game. That's the magic of ***Reinforcement Learning!*** 
 
 ## How?
 The game can be run directly on terminal, or on any IDE. 
 
 First, the user choose how many rounds the agent will be trained. Note that, this is where the agent will explore different actions, and learn more about the environment. 
 
+![](Screenshot%20Test.png)
 Then, the user choose how many rounds the agent will be tested on. Note that, the agent will no longer explore the environment, but act to perform the best sequence actions, based on the knowledge it learn from the training rounds. 
 
 ## Performance
