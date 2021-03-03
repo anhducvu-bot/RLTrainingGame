@@ -10,19 +10,26 @@ The game can be run directly on terminal, or on any IDE.
 
 First, the user choose how many rounds the agent will be trained. Note that, this is where the agent will explore different actions, and learn more about the environment. 
 
-![](Screenshot%20Test.png)
+![](Screenshot%20Train.png)
 Then, the user choose how many rounds the agent will be tested on. Note that, the agent will no longer explore the environment, but act to perform the best sequence actions, based on the knowledge it learn from the training rounds. 
-
+![](Screenshot%20Test.png)
 ## Performance
 
 Just like a human, the AI performs better the more time it trains! Below is the AI's performance when it was trained 100 times and when it was trained 1000 times. 
 
+***AI perform after training for 100 rounds***
+
+![](100%20round.gif)
+
+***AI perform after training for 100 rounds***
+
+![](1000%20round.gif)
 
 ## Improvement
-
-The environment implemented in the game is the 'Taxi-v2' environment provided by [OpenAI](https://gym.openai.com/envs/#classic_control). In the future, we can include other environments for the AI to train on. 
-All of the hyperparameters are already tuned. We can include the options for the users to play around with different parameters, and how they affect the learning performance. 
-The learning method implemented in the program is Q-learning. We can include other learning methods (Sarsa,...) to let the users observe how their performance stacks with each other. 
+There are 3 main improvements that can be made:
+- The environment implemented in the game is the 'Taxi-v2' environment provided by [OpenAI](https://gym.openai.com/envs/#classic_control). In the future, we can include other environments for the AI to train on. 
+- All of the hyperparameters are already tuned. We can include the options for the users to play around with different parameters, and how they affect the learning performance. 
+- The learning method implemented in the program is Q-learning. We can include other learning methods (Sarsa,...) to let the users observe how their performance stacks with each other. 
 
 
 
