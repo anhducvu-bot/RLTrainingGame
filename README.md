@@ -10,13 +10,11 @@ Note that, we ***do not*** implicitly tell the AI what to do in a given situatio
 As you will see, rewards and punishment alone are ***enough*** for the agent to learn how to play the game. That's the magic of ***Reinforcement Learning!*** 
 
 ## How?
-The game can be run directly on terminal, or on any IDE. A playthrough of the program can be find [here](https://www.youtube.com/watch?v=xtqAbc157JQ)
+The game can be run directly on terminal, or on any IDE.
 
-First, the user choose how many rounds the agent will be trained. Note that, this is when the agent will explore different actions, and learn more about the environment. 
+First, the user choose how many rounds the agent will be trained. Note that, this is when the agent will explore different actions, and learn more about the environment. Then, the user choose how many rounds the agent will be tested on. Note that, the agent will no longer explore the environment, but rather act to the best of its knowledge. In Reinforcement Learning, this action is termed "act greedily". 
 
-![](Screenshot%20Train.png)
-Then, the user choose how many rounds the agent will be tested on. Note that, the agent will no longer explore the environment, but rather act to the best of its knowledge. In Reinforcement Learning, this action is termed "act greedily". 
-![](Screenshot%20Test.png)
+A playthrough of the program can be find [here](https://www.youtube.com/watch?v=xtqAbc157JQ)
 ## Performance
 
 Just like a human, the AI performs better the more time it trains! Below is the AI's performance when it was trained 100 times and when it was trained 1000 times. 
