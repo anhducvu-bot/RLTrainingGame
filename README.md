@@ -3,7 +3,7 @@
 ## What?
 There's an old saying: "the harder you work, the better you get." This is true not only for humans but also for AI! In this game, the user can choose how many rounds the AI has to train. Then, to access his performance, the user has the option to choose how many rounds the AI will be tested on. Similar to human, the more rounds the AI trains, the better it gets! In this game, the player will teach the AI to be a taxi driver. In the environment, there are 4 locations, and the AI has to pick up the passenger at one location (blue spot) and drop them off at another (pink spot). 
 
-Note that, we ***do not*** implicitly tell the AI what to do in a given situation and how to play the game. Rather, we let it explore and try out different actions in each round. We ***reward*** it when it does something correctly (giving it a +20 points, which is the equivalent of a thumbs-up!), and ***punish*** it when it does something bad (giving it a -10 points, which is the equivalent of slap the AI in the face!)
+Note that, we ***do not*** implicitly tell the AI what to do in any given situation, or how to play the game. Rather, we let it explore and try out different actions. We ***reward*** it when it does something correctly (giving it a +20 points, which is the equivalent of a thumbs-up!), and ***punish*** it when it does something bad (giving it a -10 points, which is the equivalent of slapping the AI in the face!)
 
 ![](trainingai.png)
 
