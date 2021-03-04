@@ -1,7 +1,12 @@
 # A Reinforcement Learning Training Game
 
 ## What?
-There's an old saying: "the harder you work, the better you get." This is true not only for humans but also for AI! In this game, the user can choose how many rounds the AI has to train. Then, to access his performance, the user has the option to choose how many rounds the AI will be tested on. Similar to human, the more rounds the AI trains, the better it gets! In this game, the player will teach the AI to be a taxi driver. In the environment, there are 4 locations, and the AI has to pick up the passenger at one location (blue spot) and drop them off at another (pink spot). 
+There's an old saying: "the harder you work, the better you get." This is true for humans, but is it also true for AI? In this game, the user can choose how many rounds the AI will be trained on, and then access its performance after training. With this tool, we can examine if the algorithm implemented(Q-learning) perform worse or better with more training. 
+
+As we will see, similar to human, the more the AI trains, the better it gets! 
+
+## About
+In this game, the player will teach the AI to be a taxi driver. In the environment, there are 4 locations, and the AI has to pick up the passenger at one location (blue spot) and drop them off at another (pink spot). The AI can perform six action: East, West, South, North, Dropoff and Pickup. 
 
 Note that, we ***do not*** implicitly tell the AI what to do in any given situation (it doesn't even know the rule of the game!). Rather, we let it explore and try out different actions. We ***reward*** it when it does something correctly (giving it a +20 points, which is the equivalent of a thumbs-up!), and ***punish*** it when it does something bad (giving it a -10 points, which is the equivalent of slapping the AI in the face!)
 
@@ -21,7 +26,7 @@ Just like a human, the AI performs better the more time it trains! Below is the 
 
 ***AI perform after training for 100 rounds:***
 
-![](100%20round.gif)
+![](100%20rounds.gif)
 
 ***AI perform after training for 1000 rounds:***
 
