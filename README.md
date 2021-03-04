@@ -30,7 +30,7 @@ Just like a human, the AI performs better the more time it trains! Below is the 
 
 ***AI perform after training for 1000 rounds:***
 
-![](1000%20round.gif)
+![](1000%20rounds.gif)
 
 ## Improvement
 There are 3 main improvements that can be made:
